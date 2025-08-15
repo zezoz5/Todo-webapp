@@ -1,0 +1,19 @@
+2025-08-03 11:35:01.406 +03:00 [INF] Now listening on: https://localhost:7126
+2025-08-03 11:35:01.432 +03:00 [INF] Now listening on: http://localhost:5074
+2025-08-03 11:35:01.434 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-03 11:35:01.434 +03:00 [INF] Hosting environment: Development
+2025-08-03 11:35:01.434 +03:00 [INF] Content root path: D:\To-Do\To-Do.API
+2025-08-03 11:35:01.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/swagger/index.html - null null
+2025-08-03 11:35:02.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/swagger/index.html - 200 null text/html;charset=utf-8 197.1595ms
+2025-08-03 11:35:02.824 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/swagger/v1/swagger.json - null null
+2025-08-03 11:35:02.900 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 76.4046ms
+2025-08-03 11:35:08.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/api/ToDo - null null
+2025-08-03 11:35:08.033 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-03 11:35:08.054 +03:00 [INF] Route matched with {action = "GetAll", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-03 11:35:10.651 +03:00 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+2025-08-03 11:35:10.695 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[To_Do.API.Models.ToDoItem, To-Do.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[To_Do.API.DTOs.ToDoItemReadDto, To-Do.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-03 11:35:10.726 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.GetAll (To-Do.API) in 2668.4988ms
+2025-08-03 11:35:10.727 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-03 11:35:10.731 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/api/ToDo - 200 null application/json; charset=utf-8 2703.2318ms

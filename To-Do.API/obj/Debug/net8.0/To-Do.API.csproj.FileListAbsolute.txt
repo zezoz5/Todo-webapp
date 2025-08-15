@@ -1,0 +1,360 @@
+D:\To-Do\To-Do.API\bin\Debug\net8.0\appsettings.Development.json
+D:\To-Do\To-Do.API\bin\Debug\net8.0\appsettings.json
+D:\To-Do\To-Do.API\bin\Debug\net8.0\To-Do.API.exe
+D:\To-Do\To-Do.API\bin\Debug\net8.0\To-Do.API.deps.json
+D:\To-Do\To-Do.API\bin\Debug\net8.0\To-Do.API.runtimeconfig.json
+D:\To-Do\To-Do.API\bin\Debug\net8.0\To-Do.API.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\To-Do.API.pdb
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Azure.Core.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Humanizer.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.ClientModel.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.CodeDom.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Text.Json.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\To-Do\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.csproj.AssemblyReference.cache
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.AssemblyInfoInputs.cache
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.AssemblyInfo.cs
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.csproj.CoreCompileInputs.cache
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.MvcApplicationPartsAssemblyInfo.cs
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.MvcApplicationPartsAssemblyInfo.cache
+D:\To-Do\To-Do.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\To-Do\To-Do.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\To-Do\To-Do.API\obj\Debug\net8.0\staticwebassets\msbuild.To-Do.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\To-Do\To-Do.API\obj\Debug\net8.0\staticwebassets\msbuild.build.To-Do.API.props
+D:\To-Do\To-Do.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.To-Do.API.props
+D:\To-Do\To-Do.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.To-Do.API.props
+D:\To-Do\To-Do.API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\To-Do\To-Do.API\obj\Debug\net8.0\scopedcss\bundle\To-Do.API.styles.css
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.csproj.Up2Date
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.dll
+D:\To-Do\To-Do.API\obj\Debug\net8.0\refint\To-Do.API.dll
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.pdb
+D:\To-Do\To-Do.API\obj\Debug\net8.0\To-Do.API.genruntimeconfig.cache
+D:\To-Do\To-Do.API\obj\Debug\net8.0\ref\To-Do.API.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+d:\To-Do\To-Do.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\appsettings.Development.json
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\appsettings.json
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\To-Do.API.exe
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\To-Do.API.deps.json
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\To-Do.API.runtimeconfig.json
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\To-Do.API.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\To-Do.API.pdb
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Azure.Core.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Azure.Identity.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Humanizer.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.ClientModel.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.CodeDom.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Composition.Convention.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Drawing.Common.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Memory.Data.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Security.Permissions.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Text.Json.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+d:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.csproj.AssemblyReference.cache
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.GeneratedMSBuildEditorConfig.editorconfig
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.AssemblyInfoInputs.cache
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.AssemblyInfo.cs
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.csproj.CoreCompileInputs.cache
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.MvcApplicationPartsAssemblyInfo.cs
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.MvcApplicationPartsAssemblyInfo.cache
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\staticwebassets.build.json
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\staticwebassets.development.json
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\staticwebassets\msbuild.To-Do.API.Microsoft.AspNetCore.StaticWebAssets.props
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\staticwebassets\msbuild.build.To-Do.API.props
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.To-Do.API.props
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.To-Do.API.props
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\staticwebassets.pack.json
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\scopedcss\bundle\To-Do.API.styles.css
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.csproj.Up2Date
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.dll
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\refint\To-Do.API.dll
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.pdb
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\To-Do.API.genruntimeconfig.cache
+d:\To-Do WebApp\To-Do.API\obj\Debug\net8.0\ref\To-Do.API.dll
+D:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\AutoMapper.dll
+D:\To-Do WebApp\To-Do.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
