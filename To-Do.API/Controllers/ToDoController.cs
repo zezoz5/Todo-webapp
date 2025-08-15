@@ -90,19 +90,22 @@ namespace To_Do.API.Controllers
         public async Task<IActionResult?> UpdateItem(int id, [FromBody] ToDoItemUpdateDto updateDto)
         {
 
-            var item = _mapper.Map<ToDoItem>(updateDto);
 
-            var UpdatedItem = await _repository.UpdateItemAsync(item);
+            var existingItem = await _repository.GetByIdAsync(id);
 
-            if (UpdatedItem == null)
+            if (existingItem == null)
             {
                 _logger.LogWarning("ToDo Item with ID {Id} not found for update.", id);
                 return NotFound($"Item with ID {id} does not exist.");
             }
 
+            _mapper.Map(updateDto, existingItem);
+
+            var updatedItem = await _repository.UpdateItemAsync(existingItem);
+
             _logger.LogInformation("Updated ToDo Item with ID {Id}.", id);
 
-            var ItemDto = _mapper.Map<ToDoItemDto>(item);
+            var ItemDto = _mapper.Map<ToDoItemDto>(updatedItem);
 
             return Ok(ItemDto);
         }

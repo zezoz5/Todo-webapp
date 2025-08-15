@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react";
-import { addTodo, deleteTodo, getTodos } from "./services/todoServices";
+import {
+  addTodo,
+  deleteTodo,
+  getTodos,
+  updateTodo,
+} from "./services/todoServices";
 
 interface Todo {
   id: number;
@@ -10,6 +15,8 @@ interface Todo {
 export default function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [newTitle, setNewTitle] = useState("");
+  const [editingId, setEditingId] = useState<number | null>(null);
+  const [editingTitle, setEditingTitle] = useState("");
 
   useEffect(() => {
     fetchTodos();
@@ -45,6 +52,24 @@ export default function App() {
     }
   };
 
+  const startEditing = (id: number, title: string) => {
+    setEditingId(id);
+    setEditingTitle(title);
+  };
+
+  const handleUpdate = async (id: number) => {
+    if (!editingTitle.trim()) return;
+
+    try {
+      const res = await updateTodo(id, { title: editingTitle });
+      setTodos(todos.map((t) => (t.id === id ? res.data : t)));
+      setEditingId(null);
+      setEditingTitle("");
+    } catch (err) {
+      console.error("Error updating todos.", err);
+    }
+  };
+
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
       <h1>My To-Do list</h1>
@@ -62,15 +87,30 @@ export default function App() {
       </div>
 
       {/* List todos */}
-      
-        <ul>
-          {todos.map((todo) => (
-            <li key={todo.id}>
-              {todo.title}{" "}
-              <button onClick={()=> handleDelete(todo.id)}>Delete</button>
-            </li>
-          ))}
-        </ul>
+
+      <ul>
+        {todos.map((todo) => (
+          <li key={todo.id}>
+            {editingId === todo.id ? (
+              <>
+                <input
+                  type="text"
+                  value={editingTitle}
+                  onChange={(e) => setEditingTitle(e.target.value)}
+                />
+                <button onClick={() => handleUpdate(todo.id)}>Save</button>
+                <button onClick={() => setEditingId(null)}>Cancel</button>
+              </>
+            ) : (
+              <>
+                {todo.title}{" "}
+                <button onClick={() => startEditing(todo.id, todo.title)}>Edit</button>
+                <button onClick={() => handleDelete(todo.id)}>Delete</button>
+              </>
+            )}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
