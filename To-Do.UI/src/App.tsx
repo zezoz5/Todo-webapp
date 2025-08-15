@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 import { addTodo, deleteTodo, getTodos } from "./services/todoServices";
 
 interface Todo {

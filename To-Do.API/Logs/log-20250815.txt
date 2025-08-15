@@ -456,3 +456,161 @@ WHERE [Id] = @p0;
 2025-08-15 10:54:30.849 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.DeleteItem (To-Do.API)'
 2025-08-15 10:54:30.850 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7126/api/ToDo/3 - 204 null null 71.5166ms
 2025-08-15 10:55:04.127 +03:00 [INF] Application is shutting down...
+2025-08-15 11:22:38.890 +03:00 [INF] Now listening on: https://localhost:7126
+2025-08-15 11:22:38.915 +03:00 [INF] Now listening on: http://localhost:5074
+2025-08-15 11:22:38.918 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-15 11:22:38.919 +03:00 [INF] Hosting environment: Development
+2025-08-15 11:22:38.919 +03:00 [INF] Content root path: D:\To-Do WebApp\To-Do.API
+2025-08-15 11:27:45.945 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/api/ToDo - null null
+2025-08-15 11:27:45.966 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:27:45.981 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:27:46.003 +03:00 [INF] Route matched with {action = "GetAll", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:27:48.494 +03:00 [INF] Executed DbCommand (68ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+2025-08-15 11:27:48.522 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[To_Do.API.DTOs.ToDoItemDto, To-Do.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-15 11:27:48.567 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.GetAll (To-Do.API) in 2560.5298ms
+2025-08-15 11:27:48.572 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:27:48.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/api/ToDo - null null
+2025-08-15 11:27:48.578 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:27:48.580 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:27:48.581 +03:00 [INF] Route matched with {action = "GetAll", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:27:48.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/api/ToDo - 200 null application/json; charset=utf-8 2636.6929ms
+2025-08-15 11:27:48.596 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+2025-08-15 11:27:48.599 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[To_Do.API.DTOs.ToDoItemDto, To-Do.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-15 11:27:48.600 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.GetAll (To-Do.API) in 17.4934ms
+2025-08-15 11:27:48.602 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:27:48.604 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/api/ToDo - 200 null application/json; charset=utf-8 31.5568ms
+2025-08-15 11:27:57.830 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7126/api/ToDo - null null
+2025-08-15 11:27:57.833 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:27:57.835 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7126/api/ToDo - 204 null null 4.2318ms
+2025-08-15 11:27:57.837 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7126/api/ToDo - application/json 15
+2025-08-15 11:27:57.839 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:27:57.840 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.CreateItem (To-Do.API)'
+2025-08-15 11:27:57.848 +03:00 [INF] Route matched with {action = "CreateItem", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateItem(To_Do.API.DTOs.ToDoItemCreateDto) on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:27:58.151 +03:00 [INF] Executed DbCommand (161ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ToDoItems] ([CreatedAt], [Description], [IsCompleted], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-08-15 11:27:58.169 +03:00 [INF] Created new ToDo Item with ID 1004
+2025-08-15 11:27:58.171 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'To_Do.API.DTOs.ToDoItemDto'.
+2025-08-15 11:27:58.191 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.CreateItem (To-Do.API) in 341.4731ms
+2025-08-15 11:27:58.192 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.CreateItem (To-Do.API)'
+2025-08-15 11:27:58.193 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7126/api/ToDo - 201 null application/json; charset=utf-8 356.7494ms
+2025-08-15 11:27:59.105 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7126/api/ToDo/1004 - null null
+2025-08-15 11:27:59.107 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:27:59.107 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7126/api/ToDo/1004 - 204 null null 2.7529ms
+2025-08-15 11:27:59.110 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7126/api/ToDo/1004 - null null
+2025-08-15 11:27:59.112 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:27:59.113 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.DeleteItem (To-Do.API)'
+2025-08-15 11:27:59.117 +03:00 [INF] Route matched with {action = "DeleteItem", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteItem(Int32) on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:27:59.173 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+WHERE [t].[Id] = @__Id_0
+2025-08-15 11:27:59.195 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [ToDoItems]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-08-15 11:27:59.199 +03:00 [INF] Deleted ToDo Item with ID 1004.
+2025-08-15 11:27:59.201 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-08-15 11:27:59.202 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.DeleteItem (To-Do.API) in 83.0837ms
+2025-08-15 11:27:59.203 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.DeleteItem (To-Do.API)'
+2025-08-15 11:27:59.204 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7126/api/ToDo/1004 - 204 null null 93.588ms
+2025-08-15 11:28:03.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/api/ToDo - null null
+2025-08-15 11:28:03.993 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:28:03.994 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:28:03.995 +03:00 [INF] Route matched with {action = "GetAll", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:28:04.001 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+2025-08-15 11:28:04.004 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[To_Do.API.DTOs.ToDoItemDto, To-Do.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-15 11:28:04.006 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.GetAll (To-Do.API) in 8.3715ms
+2025-08-15 11:28:04.007 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/api/ToDo - null null
+2025-08-15 11:28:04.007 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:28:04.011 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:28:04.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/api/ToDo - 200 null application/json; charset=utf-8 22.2838ms
+2025-08-15 11:28:04.013 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:28:04.016 +03:00 [INF] Route matched with {action = "GetAll", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:28:04.021 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+2025-08-15 11:28:04.023 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[To_Do.API.DTOs.ToDoItemDto, To-Do.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-15 11:28:04.025 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.GetAll (To-Do.API) in 7.0724ms
+2025-08-15 11:28:04.026 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:28:04.027 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/api/ToDo - 200 null application/json; charset=utf-8 20.2326ms
+2025-08-15 11:28:17.228 +03:00 [INF] Application is shutting down...
+2025-08-15 11:32:36.959 +03:00 [INF] Now listening on: https://localhost:7126
+2025-08-15 11:32:36.983 +03:00 [INF] Now listening on: http://localhost:5074
+2025-08-15 11:32:36.985 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-15 11:32:36.986 +03:00 [INF] Hosting environment: Development
+2025-08-15 11:32:36.986 +03:00 [INF] Content root path: D:\To-Do WebApp\To-Do.API
+2025-08-15 11:35:33.896 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/api/ToDo - null null
+2025-08-15 11:35:33.915 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:35:33.928 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:35:33.948 +03:00 [INF] Route matched with {action = "GetAll", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:35:36.399 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+2025-08-15 11:35:36.425 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[To_Do.API.DTOs.ToDoItemDto, To-Do.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-15 11:35:36.468 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.GetAll (To-Do.API) in 2515.7521ms
+2025-08-15 11:35:36.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7126/api/ToDo - null null
+2025-08-15 11:35:36.471 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:35:36.473 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:35:36.475 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:35:36.476 +03:00 [INF] Route matched with {action = "GetAll", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:35:36.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/api/ToDo - 200 null application/json; charset=utf-8 2584.6107ms
+2025-08-15 11:35:36.487 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+2025-08-15 11:35:36.489 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[To_Do.API.DTOs.ToDoItemDto, To-Do.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-15 11:35:36.490 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.GetAll (To-Do.API) in 13.1871ms
+2025-08-15 11:35:36.491 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.GetAll (To-Do.API)'
+2025-08-15 11:35:36.492 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7126/api/ToDo - 200 null application/json; charset=utf-8 20.633ms
+2025-08-15 11:35:38.955 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7126/api/ToDo - null null
+2025-08-15 11:35:38.958 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:35:38.959 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7126/api/ToDo - 204 null null 4.1266ms
+2025-08-15 11:35:38.963 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7126/api/ToDo - application/json 15
+2025-08-15 11:35:38.965 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:35:38.966 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.CreateItem (To-Do.API)'
+2025-08-15 11:35:38.972 +03:00 [INF] Route matched with {action = "CreateItem", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateItem(To_Do.API.DTOs.ToDoItemCreateDto) on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:35:39.203 +03:00 [INF] Executed DbCommand (101ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [ToDoItems] ([CreatedAt], [Description], [IsCompleted], [Title])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-08-15 11:35:39.223 +03:00 [INF] Created new ToDo Item with ID 1005
+2025-08-15 11:35:39.226 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'To_Do.API.DTOs.ToDoItemDto'.
+2025-08-15 11:35:39.242 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.CreateItem (To-Do.API) in 267.9347ms
+2025-08-15 11:35:39.243 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.CreateItem (To-Do.API)'
+2025-08-15 11:35:39.244 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7126/api/ToDo - 201 null application/json; charset=utf-8 280.6212ms
+2025-08-15 11:35:40.225 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7126/api/ToDo/1005 - null null
+2025-08-15 11:35:40.226 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:35:40.227 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7126/api/ToDo/1005 - 204 null null 2.3438ms
+2025-08-15 11:35:40.229 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7126/api/ToDo/1005 - null null
+2025-08-15 11:35:40.231 +03:00 [INF] CORS policy execution successful.
+2025-08-15 11:35:40.232 +03:00 [INF] Executing endpoint 'To_Do.API.Controllers.ToDoController.DeleteItem (To-Do.API)'
+2025-08-15 11:35:40.236 +03:00 [INF] Route matched with {action = "DeleteItem", controller = "ToDo"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteItem(Int32) on controller To_Do.API.Controllers.ToDoController (To-Do.API).
+2025-08-15 11:35:40.290 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[Id], [t].[CreatedAt], [t].[Description], [t].[IsCompleted], [t].[Title]
+FROM [ToDoItems] AS [t]
+WHERE [t].[Id] = @__Id_0
+2025-08-15 11:35:40.309 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [ToDoItems]
+OUTPUT 1
+WHERE [Id] = @p0;
+2025-08-15 11:35:40.313 +03:00 [INF] Deleted ToDo Item with ID 1005.
+2025-08-15 11:35:40.315 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-08-15 11:35:40.316 +03:00 [INF] Executed action To_Do.API.Controllers.ToDoController.DeleteItem (To-Do.API) in 78.764ms
+2025-08-15 11:35:40.317 +03:00 [INF] Executed endpoint 'To_Do.API.Controllers.ToDoController.DeleteItem (To-Do.API)'
+2025-08-15 11:35:40.318 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7126/api/ToDo/1005 - 204 null null 89.0203ms
+2025-08-15 11:35:49.858 +03:00 [INF] Application is shutting down...
