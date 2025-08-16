@@ -14,33 +14,6 @@ namespace To_Do.API.Data
 
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<ToDoItem>()
-            .HasData(
-                new ToDoItem
-                {
-                    Id = 1,
-                    Title = "Add POST method",
-                    Description = "Create new Task.",
-                    IsCompleted = false,
-                    CreatedAt = new DateTime(2025, 8, 2, 12, 0, 0, DateTimeKind.Utc)
-                },
-                new ToDoItem
-                {
-                    Id = 2,
-                    Title = "Add PUT method",
-                    Description = "Update existing task.",
-                    IsCompleted = false,
-                    CreatedAt = new DateTime(2025, 8, 2, 12, 0, 0, DateTimeKind.Utc)
-                },
-                new ToDoItem
-                {
-                    Id = 3,
-                    Title = "Add DELETE method",
-                    Description = "Remove existing task.",
-                    IsCompleted = false,
-                    CreatedAt = new DateTime(2025, 8, 2, 12, 0, 0, DateTimeKind.Utc)
-                }
-            );
         }
         // I don't know what this does so lets keep it like that till we need it.
         // So it solves: No database provider has been configured for this DbContext.

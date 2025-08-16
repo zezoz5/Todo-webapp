@@ -9,7 +9,7 @@ import {
 interface Todo {
   id: number;
   title: string;
-  completed?: boolean;
+  isCompleted?: boolean;
 }
 
 export default function App() {
@@ -17,6 +17,7 @@ export default function App() {
   const [newTitle, setNewTitle] = useState("");
   const [editingId, setEditingId] = useState<number | null>(null);
   const [editingTitle, setEditingTitle] = useState("");
+  const [editingCompleted, setEditingCompleted] = useState(false);
 
   useEffect(() => {
     fetchTodos();
@@ -35,7 +36,7 @@ export default function App() {
     if (!newTitle.trim()) return;
 
     try {
-      const res = await addTodo({ title: newTitle });
+      const res = await addTodo({ title: newTitle, isCompleted: false });
       setTodos([...todos, res.data]);
       setNewTitle("");
     } catch (err) {
@@ -52,16 +53,24 @@ export default function App() {
     }
   };
 
-  const startEditing = (id: number, title: string) => {
+  const startEditing = (
+    id: number,
+    title: string,
+    isCompleted: boolean = false
+  ) => {
     setEditingId(id);
     setEditingTitle(title);
+    setEditingCompleted(isCompleted);
   };
 
   const handleUpdate = async (id: number) => {
     if (!editingTitle.trim()) return;
 
     try {
-      const res = await updateTodo(id, { title: editingTitle });
+      const res = await updateTodo(id, {
+        title: editingTitle,
+        isCompleted: editingCompleted,
+      });
       setTodos(todos.map((t) => (t.id === id ? res.data : t)));
       setEditingId(null);
       setEditingTitle("");
@@ -70,12 +79,23 @@ export default function App() {
     }
   };
 
+  const toggleCompleted = async (todo: Todo) => {
+    try {
+      const res = await updateTodo(todo.id, {
+        title: todo.title,
+        isCompleted: !todo.isCompleted,
+      });
+      setTodos(todos.map((t) => (t.id === todo.id ? res.data : t)));
+    } catch (err) {
+      console.error("Error toggling todo:", err);
+    }
+  };
+
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
       <h1>My To-Do list</h1>
 
       {/* Add todo */}
-
       <div>
         <input
           type="text"
@@ -90,21 +110,42 @@ export default function App() {
 
       <ul>
         {todos.map((todo) => (
-          <li key={todo.id}>
+          <li key={todo.id} style={{ marginBottom: "5px" }}>
+            <input
+              type="checkbox"
+              checked={todo.isCompleted || false}
+              onChange={() => toggleCompleted(todo)}
+            />
             {editingId === todo.id ? (
               <>
                 <input
                   type="text"
                   value={editingTitle}
                   onChange={(e) => setEditingTitle(e.target.value)}
+                  style={{ marginLeft: "5px" }}
                 />
+
                 <button onClick={() => handleUpdate(todo.id)}>Save</button>
                 <button onClick={() => setEditingId(null)}>Cancel</button>
               </>
             ) : (
               <>
-                {todo.title}{" "}
-                <button onClick={() => startEditing(todo.id, todo.title)}>Edit</button>
+                <span
+                  style={{
+                    marginLeft: "5px",
+                    textDecoration: todo.isCompleted ? "line-through" : "none",
+                  }}
+                >
+                  {todo.title}
+                </span>
+                <button
+                  onClick={() =>
+                    startEditing(todo.id, todo.title, todo.isCompleted || false)
+                  }
+                  style={{ marginLeft: "10px" }}
+                >
+                  Edit
+                </button>
                 <button onClick={() => handleDelete(todo.id)}>Delete</button>
               </>
             )}
