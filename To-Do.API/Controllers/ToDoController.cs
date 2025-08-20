@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using To_Do.API.Data;
 using To_Do.API.DTOs;
@@ -33,6 +34,7 @@ namespace To_Do.API.Controllers
         // Get All Items
         // GET: https://localhost:7126/api/todo
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll()
         {
             var Items = await _repository.GetAllAsync();
@@ -67,8 +69,8 @@ namespace To_Do.API.Controllers
         }
 
 
-
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> CreateItem([FromBody] ToDoItemCreateDto createDto)
         {
 
