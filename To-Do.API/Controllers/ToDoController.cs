@@ -15,6 +15,7 @@ namespace To_Do.API.Controllers
 {
     // https://localhost:7126/api/todo
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class ToDoController : ControllerBase
     {
@@ -34,7 +35,7 @@ namespace To_Do.API.Controllers
         // Get All Items
         // GET: https://localhost:7126/api/todo
         [HttpGet]
-        [Authorize]
+
         public async Task<IActionResult> GetAll()
         {
             var Items = await _repository.GetAllAsync();
